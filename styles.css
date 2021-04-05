@@ -1,0 +1,295 @@
+:root {
+    --blue: #0c3559;
+    --darkblue: #092640;
+    --seablue: #687b8c;
+    --lightseablue: #aab9bf;
+    --light: #f2f2f2;
+  }
+
+
+
+body {
+    line-height: 1.4em;
+    color: #0a0d0e;
+    font-size: 15px;
+}
+
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    justify-content: space-between;
+    margin-left: 70%;
+    display: flex;
+  }
+ 
+  li {
+    display: inline;
+    padding: 2px;
+    text-decoration: none;
+  }
+
+  .bgimg {
+      background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WZjurLgFrjcnzYOrIrDZ8wHaF2%26pid%3DApi&f=1.jpg");
+  }
+   
+  body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+  
+  header {
+    padding: 4px;
+    text-align: left;
+    background: #13293d;
+    color: var(--color);
+  }
+  
+  nav {
+    display: flex;
+    background-color: white;
+  }
+  
+  nav a {
+    color: var(--color); 
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 8px;
+    text-align:center;
+    background:grey;
+    color: black; 
+  }
+  
+  .heading {
+    flex: 2;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .heading,
+  .content {
+    flex: 0 0 200px;
+    background-color: silver;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+
+  .content box {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .content row {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .column 1 {
+      width: 100%;
+      height: 300px;
+  }
+
+
+  .column 2 {
+    width: 100%;
+    height: 300px;
+}
+
+.column 3 {
+    width: 100%;
+    height: 300px;
+}
+
+  .row {
+    border: 1px solid black;
+    flex: 2;
+    background-color: silver;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .box {
+    border: 1px solid black;
+    flex: 2;
+    background-color: silver;
+    padding: 50px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 20 20 200px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+  
+  .card > header {
+    border-radius: 70px 70px 70px 70px;
+    padding: 20px;
+  }
+  
+  .card > p {
+    text-align: center;
+  }
+  
+  .card > img {
+    width: 100%;
+  }
+  
+    @media screen and (max-width: 992px) {
+      header {
+        background: #772014;
+        flex-direction: column;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      nav {
+        background-color: #bb8588;
+      }
+    }
+  
+    @media screen and (max-width: 576px) {
+      .sample-img {
+        background-color: #8ac4ff;
+      }
+    }
+        .column 1 {
+            height: 200px;
+            width: 100px;
+        }
+  
+  
+  
+  
+  
+  
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #133557;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 48em) {
+
+    /* We increase the body font size */
+    body {
+        font-size: 16px;
+    }
+
+    /* We can align the menu header to the left, but float the
+    menu items to the right. */
+    .home-menu {
+        text-align: left;
+    }
+        .home-menu ul {
+            float: right;
+        }
+
+    /* We increase the height of the splash-container */
+/*    .splash-container {
+        height: 500px;
+    }*/
+
+    /* We decrease the width of the .splash, since we have more width
+    to work with */
+    .splash {
+        width: 50%;
+        height: 50%;
+    }
+
+    .splash-head {
+        font-size: 250%;
+    }
+
+
+    /* We remove the border-separator assigned to .l-box-lrg */
+    .l-box-lrg {
+        border: none;
+    }
+
+}
+
+/*
+ * -- DESKTOP (AND UP) MEDIA QUERIES --
+ * On desktops and other large devices, we want to over-ride some
+ * of the mobile and tablet styles.
+ */
+@media (min-width: 78em) {
+    /* We increase the header font size even more */
+    .splash-head {
+        font-size: 300%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1020px) { /* Large Desktop */ }
+@media screen and (max-width: 780px) { /* tablet */ }
+@media screen and (max-width: 480px) { /* mobile */ }

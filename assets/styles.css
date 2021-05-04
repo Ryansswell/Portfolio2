@@ -5,3 +5,24 @@
   --lightseablue: #aab9bf;
   --light: #f2f2f2;
 }
+
+h1 {
+  font-size: 190%;
+}
+
+h2 {
+  font-size: 170%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+header {
+  flex-direction: column;
+  display: flex;
+}
+
+body {
+  background-color: var(--lightseablue);
+}

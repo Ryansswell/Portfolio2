@@ -2,123 +2,143 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./assets/reset.css">
-	<link rel="stylesheet" type="text/css" href="./assets/styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-		crossorigin="anonymous"></script>
-	<title>Ryan's Portfolio</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ryan's Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/full-width-pics.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-	<header>
-		<div>
-			<h1>Ryan Anderson</h1>
-		</div>
-		<nav>
-			<ul>
-				<li>
-					<a href="#About">About</a>
-				</li>
-				<li>
-					<a href="#Resume">Resume</a>
-				</li>
-				<li>
-					<a href="#LinkedIn">LinkedIn</a>
-				</li>
-				<li>
-					<a href="#Contact">Contact</a>
-				</li>
-			</ul>
-		</nav>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ryan Anderson</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about" target="">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/ryan-anderson-52842784/" target="_blank">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/Ryansswell" target="_blank">GitHub</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Resume.pdf" target="_blank">Portfolio/Resume</a>
 
-	</header>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-	<section class="top-pic">
-		<img class="top-maui" src="assets/images/maui2.jpeg" width="auto" height="700"
-			alt="Cool Background picture I took!">
-		<img class="ryan-pic" src="assets/images/Headshot.jpg" width="400" height="400" alt="Profile picture">
-	</section>
+  <!-- Header - set the background image for the header in the line below -->
+  <header class="py-5 bg-image-full" style="background-image: url('maui2.jpeg');">
+    <img class="img-fluid d-block mx-auto" src="Portfolio Headshot.jpg" alt="Headshot" width=250px height=250px>
+  </header>
 
-	<main>
-		<section id="About">
-			<div class="title">
-				<h2>About Me</h2>
-				<div class="intro-info">
-					I grew up in Colorado and feel fortunate to have grown up in such a unique paradise!
-					Growing up I was able to travel to many amazing locations and California was always my favorite!
-					So I moved to San Diego and have been calling it my home for 13 years.
-				</div>
-			</div>
-		</section>
+  <!-- Content section -->
+  <section class="py-5">
+    <div class="container" id="about">
 
+      <h1>About Me</h1>
+      <p class="lead">Life is the best when you can enjoy the journey!</p>
+      <p>I am so fortunate to call San Diego my home! Growing up in Colorado, I have always appreciated the outdoors and
+        making great friends.
+        Surfing is my favorite hobby and favorite workout. I dream about surfing when I am not coding! I have been
+        fortunate to be able to surf all over Ecuador, Costa
+        Rica, Mexico and Hawaii.
+        Traveling has always been one of my favorite hobbies, along with experiencing new cultures and people!
 
-		<div class="profile">
-			<div class="profile-content">
-				<h3>Profile</h3>
-				Life is incredible when you allow yourself to pursue true passion.
-				I have had a true desire for coding and learning more about how the internet functions.
-				I have been in professional sales roles for the past decade and knew I needed a new challenge!!!
-			</div>
+        Living out true passions and making slight improvements everyday is amazing.
+      </p>
+    </div>
+  </section>
 
-			<div class="skills">
-				<h3>Skills</h3>
-				I am working on becoming a software developer and working on my Portfolio! Below are some of the recent
-				skills I have acquired:
-				<ul class="skill-bars">
-					<li>
-						<div class="progress percent90"><span>90%</span></div>
-						<strong>HTML5</strong>
-					</li>
-					<li>
-						<div class="progress percent85"><span>75%</span></div>
-						<strong>CSS3</strong>
-					</li>
-					<li>
-						<div class="progress percent70"><span>50%</span></div>
-						<strong>JQuery</strong>
-					</li>
-					<li>
-						<div class="progress percent95"><span>25%</span></div>
-						<strong>PHP</strong>
-					</li>
-					<li>
-						<div class="progress percent75"><span>15%</span></div>
-						<strong>Wordpress</strong>
-					</li>
-				</ul>
-			</div>
-		</div>
+  <!-- Image element - set the background image for the header in the line below -->
+  <div class="py-5 bg-image-full" style="background-image: url('IMG_4019.jpg');">
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+    <div style="height: 200px;"></div>
+  </div>
 
-		<footer>
-			<div class="contact">
-				<ul class="info-list">
-					<li>
-						<a href="https://github.com/Ryansswell">Github</a>
-					</li>
+  <!-- Content section -->
+  <section class="py-5">
+    <div class="container">
+      <h1>Portfolio/Resume</h1>
+      <p class="lead">An overview of my past accomplishments</p>
+      <p>Over the past decade I have been working in sales roles and always had a passion for achieving the next goal
+        and meeting new people
+        I didn't start drinking coffee until I started my first sales job. I have been fortunate to work in client
+        facing roles, as well as virtual sales and greatly enjoyed them both.
+        Over the past decade I have endured and learned a lot in the world of sales. I have overachieved my yearly quota
+        consistently and reached 144% of my quota the previous two years in a row. The best part is my quota drastically
+        increased from the first year but I still achieved 144% to match the prior great year!
+        I bring a lot of determination and drive everyday to achieve my passions. I feel very fortunate and passionate
+        to be in the position I am today! From all the personal skills and technology skills I have learned in my
+        previous roles, I know I can be a helpful team member. I have always been a strong communicator and also think
+        of myself as a quick learner.
+        I am seeking a life long career in software development and excited for what the future has to bring after this
+        amazing bootcamp.
+      </p>
+    </div>
+  </section>
+  <section>
+    <h2 class="section-header" style="padding:5% 10% 0% 10%;">Projects</h2>
+    <div style="margin-left: 12%; margin-right: 12%; font-size:20px;" id="projects">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Rocket Trades</h5>
+          <p class="card-text">Ever need a quick way to look up investments or cyrpto without investing?</p>
+          <a href="https://github.com/Ryansswell/Rocket-Trades" target="_blank" class="card-link">GitHub link</a>
+        </div>
+      </div>
+      <div style="margin-left: 2%; margin-right: 52%; font-size:20px;" id="projects">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Employee Tracker</h5>
+            <p class="card-text">Ever need a quick way to look up investments or cyrpto without investing?</p>
+            <a href="https://github.com/Ryansswell/Employer_Tracker" target="_blank" class="card-link">GitHub link</a>
 
-					<li>
-						<strong>Email:</strong>
-						<span>ryan0425@msn.com</span>
-					</li>
-				</ul>
-				<div class="contact-info">
-					<h5>Call Me At</h5>
-					<p>Phone: (858) 444-6414 </p>
-				</div>
+          </div>
+  </section>
 
-			</div>
-		</footer>
-	</main>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        </a>
+      </div>
+    </nav>
 
+    <div class="container">
+      <p class="nav-link"> <a href="mailto:ryan0425@msn.com" target="">Email </a></p>
+      <a class="nav-link" href="https://www.linkedin.com/in/ryan-anderson-52842784/" target="_blank">LinkedIn</a>
+      <a class="nav-link" href="https://github.com/Ryansswell" target="_blank">GitHub</a>
+    </div>
+    <!-- /.container -->
+  </footer>
 
-	<script src="script.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
